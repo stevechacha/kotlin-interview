@@ -2,6 +2,13 @@
 
 A repository for the aSoft Limited hands on kotlin developer interview.
 
+## Ready, Set, Go!
+In order to maximize on the time you have for the interview, please make sure you have the following setup:
+
+- This project is opened up in IntelliJ IDEA
+- Gradle has synced and downloaded all dependencies
+- IntelliJ IDEA has finished indexing the project
+
 ## Introduction
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop, Server.
 
@@ -12,7 +19,7 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop, Ser
     For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
     `iosMain` would be the right folder for such calls.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
+* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform,
   you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
 
 * `/server` is for the Ktor server application.
@@ -21,13 +28,6 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop, Ser
   The most important subfolder is `commonMain`. If preferred, you can add code to the platform-specific folders here too.
 
 You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
-
-## Ready, Set, Go!
-In order to maximize on the time you have for the interview, please make sure you have the following setup:
-
-- This project opened up in IntelliJ IDEA
-- Gradle has synced and downloaded all dependencies
-- IntelliJ IDEA has finished indexing the project
 
 ## Tasks
 You will be informed on the tasks you have to do during the interview
