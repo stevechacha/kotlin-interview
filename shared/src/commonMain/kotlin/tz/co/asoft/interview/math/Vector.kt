@@ -6,9 +6,11 @@ interface Vector {
 
     val magnitude: Double
 
-    fun add(other: Vector): Vector
+    operator fun plus(other: Vector): Vector
 
-    fun sub(other: Vector) : Vector
+    operator fun minus(other: Vector) : Vector
+
+    operator fun unaryMinus(): Vector
 
     fun dot(other: Vector): Double
 }

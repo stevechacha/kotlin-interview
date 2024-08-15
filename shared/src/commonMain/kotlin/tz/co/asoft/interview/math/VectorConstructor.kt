@@ -2,6 +2,6 @@ package tz.co.asoft.interview.math
 
 fun Vector(x: Number, y: Number): Vector = TODO()
 
-inline val Number.i get() = Vector(toDouble(), 0)
+inline val Number.i: Vector get() = TODO()
 
-inline val Number.j get() = Vector(0, toDouble())
+inline val Number.j: Vector get() = TODO()
